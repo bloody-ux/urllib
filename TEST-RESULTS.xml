@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="25.822000000000006" tests="163" failures="0" skipped="3">
+  <testsuite name="Root Suite" timestamp="2019-03-06T12:48:28" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="test/digest_auth.test.js" timestamp="2019-03-06T12:48:28" tests="4" file="/usr/local/workshop/demos/urllib/test/digest_auth.test.js" failures="0" time="2.851">
+    <testcase name="test/digest_auth.test.js should request with digest auth success in httpbin" time="1.517" classname="should request with digest auth success in httpbin">
+    </testcase>
+    <testcase name="test/digest_auth.test.js should request with digest auth fail in httpbin" time="1.334" classname="should request with digest auth fail in httpbin">
+    </testcase>
+  </testsuite>
+  <testsuite name="test/httpclient.test.js" timestamp="2019-03-06T12:48:30" tests="7" file="/usr/local/workshop/demos/urllib/test/httpclient.test.js" failures="0" time="0.34099999999999997">
+    <testcase name="test/httpclient.test.js should request without args work" time="0.076" classname="should request without args work">
+    </testcase>
+    <testcase name="test/httpclient.test.js should create HttpClient with defaultArgs" time="0.036" classname="should create HttpClient with defaultArgs">
+    </testcase>
+    <testcase name="test/httpclient.test.js should requestThunk()" time="0.031" classname="should requestThunk()">
+    </testcase>
+    <testcase name="test/httpclient.test.js should curl() with callback" time="0.035" classname="should curl() with callback">
+    </testcase>
+    <testcase name="test/httpclient.test.js should curl() with promise" time="0.095" classname="should curl() with promise">
+    </testcase>
+    <testcase name="test/httpclient.test.js should emit request, response event with ctx" time="0.036" classname="should emit request, response event with ctx">
+    </testcase>
+    <testcase name="test/httpclient.test.js should get remoteAddress from response event on non-keepalive connection" time="0.032" classname="should get remoteAddress from response event on non-keepalive connection">
+    </testcase>
+  </testsuite>
+  <testsuite name="test/httpclient2.test.js" timestamp="2019-03-06T12:48:31" tests="11" file="/usr/local/workshop/demos/urllib/test/httpclient2.test.js" failures="0" time="0.9129999999999999">
+    <testcase name="test/httpclient2.test.js should request()" time="0.054" classname="should request()">
+    </testcase>
+    <testcase name="test/httpclient2.test.js should requestThunk()" time="0.054" classname="should requestThunk()">
+    </testcase>
+    <testcase name="test/httpclient2.test.js should request() with retry fail" time="0.009" classname="should request() with retry fail">
+    </testcase>
+    <testcase name="test/httpclient2.test.js should request() with retry fail after 200ms" time="0.413" classname="should request() with retry fail after 200ms">
+    </testcase>
+    <testcase name="test/httpclient2.test.js should request() with isRetry status" time="0.004" classname="should request() with isRetry status">
+    </testcase>
+    <testcase name="test/httpclient2.test.js should request() with isRetry body" time="0.004" classname="should request() with isRetry body">
+    </testcase>
+    <testcase name="test/httpclient2.test.js should request() with client error" time="0.003" classname="should request() with client error">
+    </testcase>
+    <testcase name="test/httpclient2.test.js should support keepalive" time="0.078" classname="should support keepalive">
+    </testcase>
+    <testcase name="test/httpclient2.test.js should support agent = null" time="0.104" classname="should support agent = null">
+    </testcase>
+    <testcase name="test/httpclient2.test.js should support agent = false" time="0.118" classname="should support agent = false">
+    </testcase>
+    <testcase name="test/httpclient2.test.js should create HttpClient2 with defaultArgs" time="0.072" classname="should create HttpClient2 with defaultArgs">
+    </testcase>
+  </testsuite>
+  <testsuite name="when callback throw error" timestamp="2019-03-06T12:48:32" tests="1" file="/usr/local/workshop/demos/urllib/test/httpclient2.test.js" failures="0" time="0.544">
+    <testcase name="test/httpclient2.test.js when callback throw error should requestThunk()" time="0.544" classname="should requestThunk()">
+    </testcase>
+  </testsuite>
+  <testsuite name="test/keep-alive-header.test.js" timestamp="2019-03-06T12:48:32" tests="1" file="/usr/local/workshop/demos/urllib/test/keep-alive-header.test.js" failures="0" time="5.016">
+    <testcase name="test/keep-alive-header.test.js should handle Keep-Alive header and not throw reset error" time="5.016" classname="should handle Keep-Alive header and not throw reset error">
+    </testcase>
+  </testsuite>
+  <testsuite name="non ascii request header" timestamp="2019-03-06T12:48:37" tests="3" file="/usr/local/workshop/demos/urllib/test/non-ascii-request-header.test.js" failures="0" time="0.002">
+    <testcase name="non ascii request header should error when request headers contain non ascii" time="0.001" classname="should error when request headers contain non ascii">
+    </testcase>
+    <testcase name="non ascii request header should reject error on promise way" time="0.001" classname="should reject error on promise way">
+    </testcase>
+    <testcase name="non ascii request header should error on thunk way" time="0" classname="should error on thunk way">
+    </testcase>
+  </testsuite>
+  <testsuite name="test/proxy.test.js" timestamp="2019-03-06T12:48:37" tests="2" file="/usr/local/workshop/demos/urllib/test/proxy.test.js" failures="0" time="0.47">
+    <testcase name="test/proxy.test.js should proxy http work" time="0.154" classname="should proxy http work">
+    </testcase>
+    <testcase name="test/proxy.test.js should proxy https work" time="0.316" classname="should proxy https work">
+    </testcase>
+  </testsuite>
+  <testsuite name="test/redirect.test.js" timestamp="2019-03-06T12:48:38" tests="3" file="/usr/local/workshop/demos/urllib/test/redirect.test.js" failures="0" time="1.596">
+    <testcase name="test/redirect.test.js should redirect `location: /package/pedding` with headers.Host" time="0.109" classname="should redirect `location: /package/pedding` with headers.Host">
+    </testcase>
+    <testcase name="test/redirect.test.js should redirect `location: http://other-domain` with headers.Host" time="0.865" classname="should redirect `location: http://other-domain` with headers.Host">
+    </testcase>
+    <testcase name="test/redirect.test.js should use formatRedirectUrl" time="0.622" classname="should use formatRedirectUrl">
+    </testcase>
+  </testsuite>
+  <testsuite name="test/request-timeout.test.js" timestamp="2019-03-06T12:48:39" tests="1" file="/usr/local/workshop/demos/urllib/test/request-timeout.test.js" failures="0" time="1.006">
+    <testcase name="test/request-timeout.test.js should work on request timeout bigger than agent timeout" time="1.006" classname="should work on request timeout bigger than agent timeout">
+    </testcase>
+  </testsuite>
+  <testsuite name="test/request-with-stream.test.js" timestamp="2019-03-06T12:48:41" tests="3" file="/usr/local/workshop/demos/urllib/test/request-with-stream.test.js" failures="0" time="2.147">
+    <testcase name="test/request-with-stream.test.js should close stream when request timeout" time="1.035" classname="should close stream when request timeout">
+    </testcase>
+    <testcase name="test/request-with-stream.test.js should close writeStream when request timeout" time="1.009" classname="should close writeStream when request timeout">
+    </testcase>
+    <testcase name="test/request-with-stream.test.js should handle writeStream when writeStream emit error" time="0.103" classname="should handle writeStream when writeStream emit error">
+    </testcase>
+  </testsuite>
+  <testsuite name="timing.test.js" timestamp="2019-03-06T12:48:43" tests="5" file="/usr/local/workshop/demos/urllib/test/timing.test.js" failures="0" time="4.009">
+    <testcase name="timing.test.js should get timing data" time="1.487" classname="should get timing data">
+    </testcase>
+    <testcase name="timing.test.js should dns cache on https" time="0.905" classname="should dns cache on https">
+    </testcase>
+    <testcase name="timing.test.js should dns cache on http" time="0.783" classname="should dns cache on http">
+    </testcase>
+    <testcase name="timing.test.js should custom dns lookup work on http" time="0.834" classname="should custom dns lookup work on http">
+    </testcase>
+  </testsuite>
+  <testsuite name="typescript.test.js" timestamp="2019-03-06T12:48:47" tests="1" file="/usr/local/workshop/demos/urllib/test/typescript.test.js" failures="0" time="0.381">
+    <testcase name="typescript.test.js run test" time="0.381" classname="run test">
+    </testcase>
+  </testsuite>
+  <testsuite name="test/u0001.test.js" timestamp="2019-03-06T12:48:50" tests="1" file="/usr/local/workshop/demos/urllib/test/u0001.test.js" failures="0" time="0.026">
+    <testcase name="test/u0001.test.js should work on \\u0001 invaild json format" time="0.026" classname="should work on \\u0001 invaild json format">
+    </testcase>
+  </testsuite>
+  <testsuite name="test/urllib.test.js" timestamp="2019-03-06T12:48:51" tests="2" file="/usr/local/workshop/demos/urllib/test/urllib.test.js" failures="0" time="0.003">
+    <testcase name="test/urllib.test.js should assert exports" time="0.001" classname="should assert exports">
+    </testcase>
+    <testcase name="test/urllib.test.js should_mocked_http_service_works_fine" time="0.002" classname="should_mocked_http_service_works_fine">
+    </testcase>
+  </testsuite>
+  <testsuite name="requestThunk()" timestamp="2019-03-06T12:48:51" tests="1" file="/usr/local/workshop/demos/urllib/test/urllib.test.js" failures="0" time="0.002">
+    <testcase name="test/urllib.test.js requestThunk() should mock request error" time="0.002" classname="should mock request error">
+    </testcase>
+  </testsuite>
+  <testsuite name="request()" timestamp="2019-03-06T12:48:51" tests="44" file="/usr/local/workshop/demos/urllib/test/urllib.test.js" failures="0" time="1.1289999999999982">
+    <testcase name="test/urllib.test.js request() should request(host-only) work" time="0.001" classname="should request(host-only) work">
+    </testcase>
+    <testcase name="test/urllib.test.js request() should request(undefined) thrown" time="0.001" classname="should request(undefined) thrown">
+    </testcase>
+    <testcase name="test/urllib.test.js request() should request(1) thrown" time="0" classname="should request(1) thrown">
+    </testcase>
+    <testcase name="test/urllib.test.js request() should request(localhost:port) work" time="0.002" classname="should request(localhost:port) work">
+    </testcase>
+    <testcase name="test/urllib.test.js request() should request https success" time="0.033" classname="should request https success">
+    </testcase>
+    <testcase name="test/urllib.test.js request() should request https with port success" time="0.034" classname="should request https with port success">
+    </testcase>
+    <testcase name="test/urllib.test.js request() should request https with rejectUnauthorized:false success" time="0.044" classname="should request https with rejectUnauthorized:false success">
+    </testcase>
+    <testcase name="test/urllib.test.js request() should request https disable httpsAgent work" time="0.045" classname="should request https disable httpsAgent work">
+    </testcase>
+    <testcase name="test/urllib.test.js request() should include res.data" time="0.052" classname="should include res.data">
+    </testcase>
+    <testcase name="test/urllib.test.js request() should alias curl() work" time="0.048" classname="should alias curl() work">
+    </testcase>
+    <testcase name="test/urllib.test.js request() should 301" time="0.001" classname="should 301">
+    </testcase>
+    <testcase name="test/urllib.test.js request() should 302" time="0.001" classname="should 302">
+    </testcase>
+    <testcase name="test/urllib.test.js request() should redirect from 302 to 204" time="0.002" classname="should redirect from 302 to 204">
+    </testcase>
+    <testcase name="test/urllib.test.js request() should redirect from 307 to 204" time="0.002" classname="should redirect from 307 to 204">
+    </testcase>
+    <testcase name="test/urllib.test.js request() should redirect from 303 to 204" time="0.002" classname="should redirect from 303 to 204">
+    </testcase>
+    <testcase name="test/urllib.test.js request() should redirect to a full url and clean up the Host header" time="0.054" classname="should redirect to a full url and clean up the Host header">
+    </testcase>
+    <testcase name="test/urllib.test.js request() should omit any header that is explicitly set to null" time="0.001" classname="should omit any header that is explicitly set to null">
+    </testcase>
+    <testcase name="test/urllib.test.js request() should omit accept-encoding header that is explicitly set to null even if option gzip is set to true" time="0.001" classname="should omit accept-encoding header that is explicitly set to null even if option gzip is set to true">
+    </testcase>
+    <testcase name="test/urllib.test.js request() should redirect with writeStream and make sure res resume" time="0.204" classname="should redirect with writeStream and make sure res resume">
+    </testcase>
+    <testcase name="test/urllib.test.js request() should FollowRedirectError" time="0.002" classname="should FollowRedirectError">
+    </testcase>
+    <testcase name="test/urllib.test.js request() should MaxRedirectError" time="0.019" classname="should MaxRedirectError">
+    </testcase>
+    <testcase name="test/urllib.test.js request() should socket hang up by res.socket.destroy() before `response` event emit" time="0.003" classname="should socket hang up by res.socket.destroy() before `response` event emit">
+    </testcase>
+    <testcase name="test/urllib.test.js request() should socket hang up by req.abort() before `response` event emit" time="0.004" classname="should socket hang up by req.abort() before `response` event emit">
+    </testcase>
+    <testcase name="test/urllib.test.js request() should handle server socket end(&quot;balabal&quot;) will error" time="0.509" classname="should handle server socket end(&quot;balabal&quot;) will error">
+    </testcase>
+    <testcase name="test/urllib.test.js request() should get data" time="0.004" classname="should get data">
+    </testcase>
+    <testcase name="test/urllib.test.js request() should get data with options" time="0.003" classname="should get data with options">
+    </testcase>
+    <testcase name="test/urllib.test.js request() should get data with args.beforeRequest(options) to change query string" time="0.003" classname="should get data with args.beforeRequest(options) to change query string">
+    </testcase>
+    <testcase name="test/urllib.test.js request() should concat query string and data correctly when GET" time="0.001" classname="should concat query string and data correctly when GET">
+    </testcase>
+    <testcase name="test/urllib.test.js request() should post data with options" time="0.001" classname="should post data with options">
+    </testcase>
+    <testcase name="test/urllib.test.js request() should post/put/patch data and auto add &quot;application/x-www-form-urlencoded&quot; Content-Type header" time="0.003" classname="should post/put/patch data and auto add &quot;application/x-www-form-urlencoded&quot; Content-Type header">
+    </testcase>
+    <testcase name="test/urllib.test.js request() should post data don&apos;t support nested object" time="0.001" classname="should post data don&apos;t support nested object">
+    </testcase>
+    <testcase name="test/urllib.test.js request() should post data with form type support nested with nestedQuerystring" time="0.001" classname="should post data with form type support nested with nestedQuerystring">
+    </testcase>
+    <testcase name="test/urllib.test.js request() should post data with custom Content-Type &quot;test-foo-encode&quot;" time="0.001" classname="should post data with custom Content-Type &quot;test-foo-encode&quot;">
+    </testcase>
+    <testcase name="test/urllib.test.js request() should trust lower-case header keys and not covered by auto-added headers" time="0.003" classname="should trust lower-case header keys and not covered by auto-added headers">
+    </testcase>
+    <testcase name="test/urllib.test.js request() should post big data with params.content" time="0.007" classname="should post big data with params.content">
+    </testcase>
+    <testcase name="test/urllib.test.js request() should post big data with params.data" time="0.006" classname="should post big data with params.data">
+    </testcase>
+    <testcase name="test/urllib.test.js request() should post big data with params.data and SlowBuffer" time="0.013" classname="should post big data with params.data and SlowBuffer">
+    </testcase>
+    <testcase name="test/urllib.test.js request() should handle GET /wrongjson with dataType=json" time="0.008" classname="should handle GET /wrongjson with dataType=json">
+    </testcase>
+    <testcase name="test/urllib.test.js request() should handle GET /wrongjson-gbk with dataType=json and data size &gt; 1024" time="0.003" classname="should handle GET /wrongjson-gbk with dataType=json and data size &gt; 1024">
+    </testcase>
+    <testcase name="test/urllib.test.js request() should support options.dataType=text" time="0.001" classname="should support options.dataType=text">
+    </testcase>
+    <testcase name="test/urllib.test.js request() should support options.auth" time="0.001" classname="should support options.auth">
+    </testcase>
+    <testcase name="test/urllib.test.js request() should support http://user:pass@hostname" time="0.002" classname="should support http://user:pass@hostname">
+    </testcase>
+    <testcase name="test/urllib.test.js request() should auto set accept headers when dataType = json and accept not exists" time="0.001" classname="should auto set accept headers when dataType = json and accept not exists">
+    </testcase>
+    <testcase name="test/urllib.test.js request() should keep exists accept headers when dataType = json" time="0.001" classname="should keep exists accept headers when dataType = json">
+    </testcase>
+  </testsuite>
+  <testsuite name="ConnectionTimeoutError and ResponseTimeoutError" timestamp="2019-03-06T12:48:52" tests="4" file="/usr/local/workshop/demos/urllib/test/urllib.test.js" failures="0" time="0.914">
+    <testcase name="test/urllib.test.js request() ConnectionTimeoutError and ResponseTimeoutError should connection timeout" time="0.001" classname="should connection timeout">
+    </testcase>
+    <testcase name="test/urllib.test.js request() ConnectionTimeoutError and ResponseTimeoutError should response timeout" time="0.456" classname="should response timeout">
+    </testcase>
+    <testcase name="test/urllib.test.js request() ConnectionTimeoutError and ResponseTimeoutError can pass two timeout seperately and get connect error" time="0.002" classname="can pass two timeout seperately and get connect error">
+    </testcase>
+    <testcase name="test/urllib.test.js request() ConnectionTimeoutError and ResponseTimeoutError can pass two timeout seperately and get response error" time="0.455" classname="can pass two timeout seperately and get response error">
+    </testcase>
+  </testsuite>
+  <testsuite name="mock sockets full" timestamp="2019-03-06T12:48:53" tests="1" file="/usr/local/workshop/demos/urllib/test/urllib.test.js" failures="0" time="0.507">
+    <testcase name="test/urllib.test.js request() mock sockets full should case timeout after sockets link full" time="0.507" classname="should case timeout after sockets link full">
+    </testcase>
+  </testsuite>
+  <testsuite name="support agentkeepalive" timestamp="2019-03-06T12:48:54" tests="10" file="/usr/local/workshop/demos/urllib/test/urllib.test.js" failures="0" time="1.1460000000000001">
+    <testcase name="test/urllib.test.js request() support agentkeepalive should use KeepAlive agent request https://registry.npm.taobao.org/byte" time="0.076" classname="should use KeepAlive agent request https://registry.npm.taobao.org/byte">
+    </testcase>
+    <testcase name="test/urllib.test.js request() support agentkeepalive should use KeepAlive agent request https://npm.taobao.org" time="0.208" classname="should use KeepAlive agent request https://npm.taobao.org">
+    </testcase>
+    <testcase name="test/urllib.test.js request() support agentkeepalive should use KeepAlive agent request https://registry.npm.taobao.org/pedding" time="0.027" classname="should use KeepAlive agent request https://registry.npm.taobao.org/pedding">
+    </testcase>
+    <testcase name="test/urllib.test.js request() support agentkeepalive should use KeepAlive agent request https://npm.taobao.org/package/byte" time="0.072" classname="should use KeepAlive agent request https://npm.taobao.org/package/byte">
+    </testcase>
+    <testcase name="test/urllib.test.js request() support agentkeepalive should use KeepAlive agent request https://registry.npm.taobao.org/pedding" time="0.021" classname="should use KeepAlive agent request https://registry.npm.taobao.org/pedding">
+    </testcase>
+    <testcase name="test/urllib.test.js request() support agentkeepalive should use KeepAlive agent request https://npm.taobao.org/package/pedding" time="0.063" classname="should use KeepAlive agent request https://npm.taobao.org/package/pedding">
+    </testcase>
+    <testcase name="test/urllib.test.js request() support agentkeepalive should use KeepAlive agent request https://registry.npm.taobao.org/byte" time="0.09" classname="should use KeepAlive agent request https://registry.npm.taobao.org/byte">
+    </testcase>
+    <testcase name="test/urllib.test.js request() support agentkeepalive should keepAlive with same socket and count socketHandledRequests and socketHandledResponses" time="0.329" classname="should keepAlive with same socket and count socketHandledRequests and socketHandledResponses">
+    </testcase>
+    <testcase name="test/urllib.test.js request() support agentkeepalive should request http timeout" time="0.047" classname="should request http timeout">
+    </testcase>
+    <testcase name="test/urllib.test.js request() support agentkeepalive should request https timeout" time="0.213" classname="should request https timeout">
+    </testcase>
+  </testsuite>
+  <testsuite name="support stream" timestamp="2019-03-06T12:48:55" tests="5" file="/usr/local/workshop/demos/urllib/test/urllib.test.js" failures="0" time="0.21699999999999997">
+    <testcase name="test/urllib.test.js support stream should post stream success" time="0.003" classname="should post stream success">
+    </testcase>
+    <testcase name="test/urllib.test.js support stream should upload file with formstream" time="0.005" classname="should upload file with formstream">
+    </testcase>
+    <testcase name="test/urllib.test.js support stream should upload file with formstream and timeout" time="0.103" classname="should upload file with formstream and timeout">
+    </testcase>
+    <testcase name="test/urllib.test.js support stream should upload file with formstream and response streaming timeout" time="0.104" classname="should upload file with formstream and response streaming timeout">
+    </testcase>
+    <testcase name="test/urllib.test.js support stream should post not exists file stream" time="0.002" classname="should post not exists file stream">
+    </testcase>
+  </testsuite>
+  <testsuite name="args.writeStream" timestamp="2019-03-06T12:48:55" tests="6" file="/usr/local/workshop/demos/urllib/test/urllib.test.js" failures="0" time="0.361">
+    <testcase name="test/urllib.test.js args.writeStream should store data writeStream with https" time="0.042" classname="should store data writeStream with https">
+    </testcase>
+    <testcase name="test/urllib.test.js args.writeStream should timeout emit error" time="0.104" classname="should timeout emit error">
+    </testcase>
+    <testcase name="test/urllib.test.js args.writeStream should store data writeStream with followRedirect" time="0.205" classname="should store data writeStream with followRedirect">
+    </testcase>
+    <testcase name="test/urllib.test.js args.writeStream should return error when writeStream emit error" time="0.002" classname="should return error when writeStream emit error">
+    </testcase>
+    <testcase name="test/urllib.test.js args.writeStream should end writeStream when server error" time="0.002" classname="should end writeStream when server error">
+    </testcase>
+    <testcase name="test/urllib.test.js args.writeStream should end when writeStream is not consumed" time="0.006" classname="should end when writeStream is not consumed">
+    </testcase>
+  </testsuite>
+  <testsuite name="args.streaming = true" timestamp="2019-03-06T12:48:55" tests="6" file="/usr/local/workshop/demos/urllib/test/urllib.test.js" failures="0" time="0.384">
+    <testcase name="test/urllib.test.js args.streaming = true should got streaming the response" time="0.025" classname="should got streaming the response">
+    </testcase>
+    <testcase name="test/urllib.test.js args.streaming = true should work with alias name customResponse" time="0.024" classname="should work with alias name customResponse">
+    </testcase>
+    <testcase name="test/urllib.test.js args.streaming = true custom the response data should ok when req error" time="0.003" classname="custom the response data should ok when req error">
+    </testcase>
+    <testcase name="test/urllib.test.js args.streaming = true should follow redirect" time="0.156" classname="should follow redirect">
+    </testcase>
+    <testcase name="test/urllib.test.js args.streaming = true should work with promise" time="0.085" classname="should work with promise">
+    </testcase>
+    <testcase name="test/urllib.test.js args.streaming = true should streaming with ungzip" time="0.091" classname="should streaming with ungzip">
+    </testcase>
+  </testsuite>
+  <testsuite name="application/json content-type request" timestamp="2019-03-06T12:48:56" tests="3" file="/usr/local/workshop/demos/urllib/test/urllib.test.js" failures="0" time="0.008">
+    <testcase name="test/urllib.test.js application/json content-type request should auto convert data to json string" time="0.004" classname="should auto convert data to json string">
+    </testcase>
+    <testcase name="test/urllib.test.js application/json content-type request should auto convert data to json string with charset" time="0.002" classname="should auto convert data to json string with charset">
+    </testcase>
+    <testcase name="test/urllib.test.js application/json content-type request should convert data to ISO string with qs when method === GET" time="0.002" classname="should convert data to ISO string with qs when method === GET">
+    </testcase>
+  </testsuite>
+  <testsuite name="json contentType request" timestamp="2019-03-06T12:48:56" tests="2" file="/usr/local/workshop/demos/urllib/test/urllib.test.js" failures="0" time="0.002">
+    <testcase name="test/urllib.test.js json contentType request should auto convert data to json string" time="0.001" classname="should auto convert data to json string">
+    </testcase>
+    <testcase name="test/urllib.test.js json contentType request should not auto convert data to json string when method = get" time="0.001" classname="should not auto convert data to json string when method = get">
+    </testcase>
+  </testsuite>
+  <testsuite name="gzip content" timestamp="2019-03-06T12:48:56" tests="8" file="/usr/local/workshop/demos/urllib/test/urllib.test.js" failures="0" time="1.3869999999999996">
+    <testcase name="test/urllib.test.js gzip content should auto accept and decode gzip response content" time="1.005" classname="should auto accept and decode gzip response content">
+    </testcase>
+    <testcase name="test/urllib.test.js gzip content should throw on error gzip content" time="0.002" classname="should throw on error gzip content">
+    </testcase>
+    <testcase name="test/urllib.test.js gzip content should auto accept and custom decode gzip response content" time="0.029" classname="should auto accept and custom decode gzip response content">
+    </testcase>
+    <testcase name="test/urllib.test.js gzip content should redirect and gzip" time="0.303" classname="should redirect and gzip">
+    </testcase>
+    <testcase name="test/urllib.test.js gzip content should not return gzip response content" time="0.041" classname="should not return gzip response content">
+    </testcase>
+    <testcase name="test/urllib.test.js gzip content should not ungzip content when server not accept gzip" time="0.002" classname="should not ungzip content when server not accept gzip">
+    </testcase>
+    <testcase name="test/urllib.test.js gzip content should gzip content when server accept gzip" time="0.003" classname="should gzip content when server accept gzip">
+    </testcase>
+    <testcase name="test/urllib.test.js gzip content should deflate content when server accept deflate" time="0.002" classname="should deflate content when server accept deflate">
+    </testcase>
+  </testsuite>
+  <testsuite name="204 status response" timestamp="2019-03-06T12:48:57" tests="1" file="/usr/local/workshop/demos/urllib/test/urllib.test.js" failures="0" time="0.001">
+    <testcase name="test/urllib.test.js 204 status response should not convert json data when status 204" time="0.001" classname="should not convert json data when status 204">
+    </testcase>
+  </testsuite>
+  <testsuite name="user-agent" timestamp="2019-03-06T12:48:57" tests="4" file="/usr/local/workshop/demos/urllib/test/urllib.test.js" failures="0" time="0.005">
+    <testcase name="test/urllib.test.js user-agent should return default user agent" time="0.002" classname="should return default user agent">
+    </testcase>
+    <testcase name="test/urllib.test.js user-agent should return no user agent if user-agent header is set to null" time="0.001" classname="should return no user agent if user-agent header is set to null">
+    </testcase>
+    <testcase name="test/urllib.test.js user-agent should return mock user agent" time="0.001" classname="should return mock user agent">
+    </testcase>
+    <testcase name="test/urllib.test.js user-agent should return mock 2 user agent" time="0.001" classname="should return mock 2 user agent">
+    </testcase>
+  </testsuite>
+  <testsuite name="on()" timestamp="2019-03-06T12:48:57" tests="3" file="/usr/local/workshop/demos/urllib/test/urllib.test.js" failures="0" time="0.18">
+    <testcase name="test/urllib.test.js on() should listen response event" time="0.001" classname="should listen response event">
+    </testcase>
+    <testcase name="test/urllib.test.js on() should listen request event" time="0.003" classname="should listen request event">
+    </testcase>
+    <testcase name="test/urllib.test.js on() should listen request url is string, when request url is object" time="0.176" classname="should listen request url is string, when request url is object">
+    </testcase>
+  </testsuite>
+  <testsuite name="charset support" timestamp="2019-03-06T12:48:57" tests="3" file="/usr/local/workshop/demos/urllib/test/urllib.test.js" failures="0" time="0.006">
+    <testcase name="test/urllib.test.js charset support should auto decode when dataType = json" time="0.004" classname="should auto decode when dataType = json">
+    </testcase>
+    <testcase name="test/urllib.test.js charset support should auto decode when dataType = text" time="0.001" classname="should auto decode when dataType = text">
+    </testcase>
+    <testcase name="test/urllib.test.js charset support should ignore wrong charset" time="0.001" classname="should ignore wrong charset">
+    </testcase>
+  </testsuite>
+  <testsuite name="options.fixJSONCtlChars = true | false" timestamp="2019-03-06T12:48:57" tests="2" file="/usr/local/workshop/demos/urllib/test/urllib.test.js" failures="0" time="0.003">
+    <testcase name="test/urllib.test.js options.fixJSONCtlChars = true | false should auto fix json control characters" time="0.002" classname="should auto fix json control characters">
+    </testcase>
+    <testcase name="test/urllib.test.js options.fixJSONCtlChars = true | false should throw error when response has json control characters" time="0.001" classname="should throw error when response has json control characters">
+    </testcase>
+  </testsuite>
+  <testsuite name="options.fixJSONCtlChars = function" timestamp="2019-03-06T12:48:57" tests="1" file="/usr/local/workshop/demos/urllib/test/urllib.test.js" failures="0" time="0.002">
+    <testcase name="test/urllib.test.js options.fixJSONCtlChars = function should fix json string with custom function" time="0.002" classname="should fix json string with custom function">
+    </testcase>
+  </testsuite>
+  <testsuite name="args.stream = stream" timestamp="2019-03-06T12:48:57" tests="1" file="/usr/local/workshop/demos/urllib/test/urllib.test.js" failures="0" time="0.012">
+    <testcase name="test/urllib.test.js args.stream = stream should post stream" time="0.012" classname="should post stream">
+    </testcase>
+  </testsuite>
+  <testsuite name="args.dataAsQueryString = true" timestamp="2019-03-06T12:48:57" tests="1" file="/usr/local/workshop/demos/urllib/test/urllib.test.js" failures="0" time="0.001">
+    <testcase name="test/urllib.test.js args.dataAsQueryString = true should delete params go in query string" time="0.001" classname="should delete params go in query string">
+    </testcase>
+  </testsuite>
+  <testsuite name="args.checkAddress" timestamp="2019-03-06T12:48:57" tests="8" file="/usr/local/workshop/demos/urllib/test/urllib.test.js" failures="0" time="0.07900000000000001">
+    <testcase name="test/urllib.test.js args.checkAddress should throw error when request address illegal" time="0.001" classname="should throw error when request address illegal">
+    </testcase>
+    <testcase name="test/urllib.test.js args.checkAddress should throw error when request address is ip v6" time="0.001" classname="should throw error when request address is ip v6">
+    </testcase>
+    <testcase name="test/urllib.test.js args.checkAddress should throw error when follow redirect and redirect address illegal" time="0.002" classname="should throw error when follow redirect and redirect address illegal">
+    </testcase>
+    <testcase name="test/urllib.test.js args.checkAddress should work with domain" time="0.068" classname="should work with domain">
+    </testcase>
+    <testcase name="test/urllib.test.js args.checkAddress should work with domain and redirect" time="0.003" classname="should work with domain and redirect">
+    </testcase>
+    <testcase name="test/urllib.test.js args.checkAddress should work with custom lookup" time="0.001" classname="should work with custom lookup">
+    </testcase>
+    <testcase name="test/urllib.test.js args.checkAddress should work with custom lookup and v6" time="0.001" classname="should work with custom lookup and v6">
+    </testcase>
+    <testcase name="test/urllib.test.js args.checkAddress should work with domain and redirect" time="0.002" classname="should work with domain and redirect">
+    </testcase>
+  </testsuite>
+  <testsuite name="test/urllib_promise.test.js" timestamp="2019-03-06T12:48:59" tests="3" file="/usr/local/workshop/demos/urllib/test/urllib_promise.test.js" failures="0" time="0.17">
+    <testcase name="test/urllib_promise.test.js should return promise when callback missing" time="0.137" classname="should return promise when callback missing">
+    </testcase>
+    <testcase name="test/urllib_promise.test.js should work with args" time="0.028" classname="should work with args">
+    </testcase>
+    <testcase name="test/urllib_promise.test.js should throw error" time="0.005" classname="should throw error">
+    </testcase>
+  </testsuite>
+  <testsuite name="disable trace" timestamp="2019-03-06T12:48:59" tests="1" file="/usr/local/workshop/demos/urllib/test/urllib_promise.test.js" failures="0" time="0.001">
+    <testcase name="test/urllib_promise.test.js disable trace should not with long stack trace" time="0.001" classname="should not with long stack trace">
+    </testcase>
+  </testsuite>
+</testsuites>

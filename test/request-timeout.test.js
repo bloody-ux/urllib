@@ -34,8 +34,8 @@ describe('test/request-timeout.test.js', function() {
       agent: agent,
     }, function(err) {
       assert(err);
-      assert(err.name === 'ResponseTimeoutError');
-      assert(err.message.indexOf('Response timeout for 1500ms') === 0);
+      assert(err.name === 'ResponseError');
+      assert(err.message.indexOf('Socket timeout') === 0);
       done();
     });
   });
